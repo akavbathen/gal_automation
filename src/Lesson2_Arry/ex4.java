@@ -11,6 +11,14 @@ public class ex4 {
 		numbers[3]= 3;
 		numbers[4]= 10;
 
+		int sum = 0;
+		for (int i = 0; i < numbers.length; i++) {
+			sum += numbers[i];
+			
+			
+		}
+		double average = sum/numbers.length;
+		System.out.print(average);
 	}
 
 }
