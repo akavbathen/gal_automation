@@ -1,4 +1,4 @@
-package Lesson_2;
+package Lesson2_basics;
 
 public class ex1_loop {
 
@@ -11,3 +11,4 @@ public class ex1_loop {
 	}
 
 }
+
