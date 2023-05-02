@@ -9,6 +9,7 @@ public class ex1 {
 		if (number > 5);
 			System.out.print(number);
 
+			
 	}
 
 }
