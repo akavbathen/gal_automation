@@ -1,4 +1,4 @@
-package week1;
+package Lesson1;
 
 public class HW3 {
 

@@ -1,4 +1,4 @@
-package week_1_1;
+package Lesson1_1;
 import java.util.*;
 
 public class HW5 {
