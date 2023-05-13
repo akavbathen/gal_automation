@@ -32,7 +32,7 @@ public class Circle {
 	
 	public  String toString() {
 		
-		return "Rectangle: area +" + this.area + "color:"+ this.color;
+		return "Circle: area +" + this.area + " color:"+ this.color;
 		
 	}
 	

@@ -31,7 +31,7 @@ public class Rectangle {
 		
 		
 		
-		return "Rectangle: area +" + this.area + "color:"+ this.color;
+		return "Rectangle: area +" + this.area + " color:"+ this.color;
 		
 	}
 	
