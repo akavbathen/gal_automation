@@ -12,7 +12,7 @@ public class Animal {
 	}
 
 	public String getName() {
-		return name;
+		return this.name;
 	}
 
 	public void setName(String name) {
@@ -20,17 +20,24 @@ public class Animal {
 	}
 
 	public String getColor() {
-		return color;
+		return this.color;
 	}
 
 	public void setColor(String color) {
 		this.color = color;
 	}
 	
-public void howDoYouLive() {
+	public void howDoYouLive() {
 		
 		System.out.println("I breath oxygen");
 		System.out.println(getName());
 		System.out.println(getColor());
 	}
+	
+	public void howManyLegs () {
+		
+		System.out.print("this question is too general");
+	}
+	
+	
 }

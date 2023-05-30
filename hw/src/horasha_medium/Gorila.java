@@ -1,16 +1,15 @@
 package horasha_medium;
 
-public class Anaconda  extends Snake{
-	
+public class Gorila extends Monkey {
+
 	private int Legs;
 	
-	public Anaconda(String name, String color, int legs) {
-		super(name, color);
-		
-		this.Legs = legs;
-		
-	}
 
+	public Gorila(String name, String color, int legs) {
+		super(name, color);
+		this.Legs = legs;
+	}
+	
 	public int getLegs() {
 		return this.Legs;
 	}
@@ -18,13 +17,11 @@ public class Anaconda  extends Snake{
 	public void setLegs(int legs) {
 		this.Legs = legs;
 	}
-		
+
 	@Override
 	public void howManyLegs() {
-		
-		System.out.println(this.Legs);
-	}
-	
-	}
 
-	
+		System.out.println(this.Legs);
+}
+
+}
